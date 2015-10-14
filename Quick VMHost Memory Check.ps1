@@ -1,0 +1,1 @@
+﻿get-vmhost | Where-object {$_.memoryusagegb/$_.memorytotalGB -gt .8}
