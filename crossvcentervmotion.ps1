@@ -5,7 +5,7 @@ $sourceVC = "SourcevCenter"
 $targetVC = "TargetvCenter"
 
 # Define the list of VM names to migrate
-$vmNames = "SingleVM"  # Replace with the names of VMs you want to migrate
+#$vmNames = "SingleVM"  # Replace with the names of VMs you want to migrate
 $targetClusterName = "Clustername"  # Replace with the target cluster name in the target vCenter
 $vmhost = "VMHost" # Used for clearing out a specific ESXi host
 
